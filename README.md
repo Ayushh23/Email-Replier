@@ -80,10 +80,6 @@ curl -X POST http://localhost:8080/public/api/emailReply \
 - The service uses a `WebClient` bean to POST JSON to the configured Gemini URL and expects a JSON response containing `candidates[0].content.parts[0].text`.
 - Request/response mapping is defined in `src/main/java/com/emailreplier/EmailReplier/entity/EmailEntity.java` and `emailService`.
 
-**Next steps / Suggestions**
-- Add unit/integration tests for the controller and service.
-- Add Dockerfile for easy deployment.
-- Add request validation and better error handling for Gemini failures.
 
 **Files**
 - `src/main/java/com/emailreplier/EmailReplier/controller/emailController.java` — REST endpoints
