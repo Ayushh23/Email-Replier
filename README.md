@@ -86,5 +86,3 @@ curl -X POST http://localhost:8080/public/api/emailReply \
 - `src/main/java/com/emailreplier/EmailReplier/service/emailService.java` — Gemini integration logic
 - `src/main/resources/application.properties` — config values
 
----
-Created for the EmailReplier project.
